@@ -8,11 +8,17 @@
     font-style: normal;
 }
 /* shared style */
+.background-color{
+    background-color: orange;
+}
+.background-color2{
+    background-color: black;
+}
 .color-orrange{
     color: Orange;
 }
 .color-sky-blue{
-    color: Sky Blue;
+    color: skyblue;
 }
 .color-3{
     color: #05D4DF;
@@ -28,10 +34,9 @@
 .font-weight-medium{
     font-weight: 500;
 }
-.btn-contact{
+.btn-primary {
     width: 197px;
     height: 50px;
-    background-color: orange;
     border: none;
     border-radius: 12px;
     color: white;
@@ -58,7 +63,29 @@
     font-size: 1.02rem;
 }
 
-.navbar, .banner{
+.navbar, .banner {
     max-width: 1440px;
     margin: 0px auto;
+}
+/* banner-style */
+.banner-container{
+    max-width: 1158.61px;
+    height: 575px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: black;
+    margin-bottom: 24px;
+}
+.banner-image{
+    width: 468.61px;
 }
